@@ -245,7 +245,7 @@
                         <a class="btn btn-dark" href="{{$game->dinationLink}}" target="_blank" role="button" style="width: 10rem; font-family: 'Roboto', sans-serif;">DONATE</a>
                     </div>
                     <div class="mb-2">
-                        <a class="btn btn-outline-dark" href="{{$game->game}}" role="button" style="width: 10rem; font-family: 'Roboto', sans-serif;">DOWNLOAD</a>
+                        <a class="btn btn-outline-dark" href="{{$game->game}}" target="_blank" role="button" style="width: 10rem; font-family: 'Roboto', sans-serif;">DOWNLOAD</a>
                     </div>
                 </div>
             </div>
