@@ -175,7 +175,7 @@ class UserController extends Controller
         $credentials = $request->validate([
             'username'  => 'required|min:5|max:24|alpha_num',
             'newPassword'  => 'nullable|min:8|max:16',
-            'developerName' => 'required|min:8|max:24|alpha_num',
+            'developerName' => 'required|min:5|max:24|alpha_num',
             'donationLink' => 'nullable',
             'image' => 'image'
         ]);
