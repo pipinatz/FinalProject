@@ -74,7 +74,7 @@
               <div class="col-9 px-2">
                 <p class="h6 mb-0 px-0 w-75" style="font-size: 20px; font-family: 'Signika Negative', sans-serif;">{{$n->title}}</p>
                 <p class="px-0" style="font-size: 14px; height: 3rem; width: 30rem">{{Str::limit(strip_tags($n->description), 150, '...')}}</p>
-                <a class="btn btn-outline-dark px-2 mt-1" href="#" role="button" style="font-size: 12px">View Detail</a>
+                {{-- <a class="btn btn-outline-dark px-2 mt-1" href="/News/{{$n->id}}" role="button" style="font-size: 12px; font-family: 'Roboto', sans-serif;">View Detail</a> --}}
               </div>
             </div>
           @endif
