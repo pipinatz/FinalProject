@@ -82,7 +82,7 @@
       @endif
     </div>
     <div style="text-align: center; margin-bottom: 8rem">
-      <a class="btn btn-outline-dark" href="#" role="button" style="font-family: 'Roboto', sans-serif;">View More</a>
+      <a class="btn btn-outline-dark" href="/News" role="button" style="font-family: 'Roboto', sans-serif;">View More</a>
     </div>
   </div>
 @endsection
