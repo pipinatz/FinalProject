@@ -22,9 +22,9 @@ class DatabaseSeeder extends Seeder
        
         $admin->run();
         $member->run();
-        // $forum->run();
+        $forum->run();
         // $comment->run();
-        // $news->run();
-        // $game->run();
+        $news->run();
+        $game->run();
     }
 }
