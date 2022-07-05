@@ -11,13 +11,12 @@ How to run app local
   8. run the project locally using "PHP artisan serve" command.
 
 User Information
-  Admin
+Admin
     Email : swe4tmemories@email.com
     Password : 12341234
-    
-  Member
+Member
     Email : pinatz@email.com
     Password : 123123
     
-    or you can register as new member. :D
+or you can register as new member. :D
   
